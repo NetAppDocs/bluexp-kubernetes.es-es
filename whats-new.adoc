@@ -18,6 +18,14 @@ Descubra las novedades de Kubernetes en BlueXP (anteriormente Cloud Manager).
 
 
 
+== 02 de abril de 2023
+
+* Ahora puede hacerlo link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Desinstale Astra Trident"] Que se instaló con el operador Trident o BlueXP.
+* Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.
+
+
+
+
 == 05 de marzo de 2023
 
 * Kubernetes en BlueXP ahora es compatible con Astra Trident 23.01.

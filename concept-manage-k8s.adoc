@@ -29,7 +29,7 @@ image:screenshot-k8s-resource-page.png["Una captura de pantalla de la página de
 Desde la página de recursos, puede:
 
 * Ver el estado del clúster de Kubernetes.
-* Confirmar que haya instalado una versión compatible de Astra Trident o que actualice a la última versión de Astra Trident. Consulte link:./task/task-k8s-manage-trident.html["Instale Astra Trident"].
+* Confirmar que se ha instalado una versión compatible de Astra Trident, actualizar a la última versión de Astra Trident o desinstalar Astra Trident. Consulte link:./task/task-k8s-manage-trident.html["Instale Astra Trident"].
 * Añada y elimine clases de almacenamiento. Consulte link:./task/task-k8s-manage-storage-classes.html["Gestione las clases de almacenamiento"].
 * Vea los volúmenes persistentes. Consulte link:./task/task-k8s-manage-persistent-volumes.html["Vea los volúmenes persistentes"].
 * Quite los clústeres de Kubernetes del espacio de trabajo. Consulte link:./task/task-k8s-manage-remove-cluster.html["Quite los clústeres"].

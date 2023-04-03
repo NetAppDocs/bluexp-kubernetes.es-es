@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: /task/task-k8s-quick-start.html 
 keywords: kubernetes, persistent volumes, containers, persistent storage, kubeconfig, trident, kubernetes cluster, storage classes, classes, cvo-single, cvo-ha, thick provisioning, trident_trident, connect, disconnect, provision 
-summary: Añada clústeres de Kubernetes a BlueXP para obtener una gestión de datos avanzada en unos pocos pasos. 
+summary: Con BlueXP puede empezar a gestionar clústeres de Kubernetes en unos pocos pasos. 
 ---
 = Comience a usar los clústeres de Kubernetes
 :hardbreaks:
@@ -14,12 +14,6 @@ summary: Añada clústeres de Kubernetes a BlueXP para obtener una gestión de d
 
 
 [role="lead"]
-Agregue clústeres Kubernetes a BlueXP para una gestión de datos avanzada en unos pocos pasos.
-
-
-
-== Inicio rápido
-
 Uso link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] Puede empezar a gestionar los clústeres de Kubernetes en solo unos pasos.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Revise los requisitos previos

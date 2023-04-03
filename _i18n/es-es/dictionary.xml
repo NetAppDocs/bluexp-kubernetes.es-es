@@ -198,11 +198,6 @@
   <block id="4f63c1d4acd536bd5b9a9745d3f20e7b" category="paragraph">Astra Trident es un proyecto de código abierto totalmente compatible y mantenido por NetApp. Astra Trident se integra de forma nativa con Kubernetes y su marco de trabajo de volumen persistente para aprovisionar y gestionar volúmenes sin problemas desde sistemas que ejecutan cualquier combinación de plataformas de almacenamiento de NetApp. <block ref="dd2206fc656d0a859de4039d89433dfe" category="inline-link-macro-rx"></block>.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Funciones</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
-  <block id="7caa90f14b457665f7fa695360ecb815" category="paragraph">Con una versión compatible de Astra Trident puesta en marcha mediante el operador Trident, puede gestionar directamente sus clústeres de Kubernetes mediante <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Anteriormente Cloud Manager).</block>
-  <block id="3a6729951b75ba10964e07a3b4768c91" category="list-text">Instalar o actualizar Astra Trident.</block>
-  <block id="3e1566822574596f61c1fe009087856e" category="list-text">Añada y gestione clústeres como parte de su infraestructura de cloud híbrido.</block>
-  <block id="aa6e96555ed26ef1dcb622e5b13653ae" category="list-text">Añada y gestione clases de almacenamiento y conéctelas a los entornos de trabajo.</block>
-  <block id="d59a7b1b3d81013cb6befe124b4da534" category="list-text">Realice backups de volúmenes persistentes mediante Cloud Backup Service.</block>
   <block id="acb13b8754d0f14e58090cb4826d589f" category="section-title">Puestas en marcha de Kubernetes compatibles</block>
   <block id="8b4d25df20eadf8dd52c5fe961669cb3" category="paragraph">BlueXP admite clústeres de Kubernetes gestionados que se ejecutan en:</block>
   <block id="46a72d9af542e3e84ec5f5f3a72f54c1" category="inline-link-macro">Amazon Elastic Kubernetes Service (Amazon EKS)</block>
@@ -234,7 +229,6 @@
   <block id="0a7f3527cff1099d537e438e6d62de3f" category="paragraph">Desde la página de recursos, puede:</block>
   <block id="ae98d4fcb6e8e5720784f6c4936d3fda" category="list-text">Ver el estado del clúster de Kubernetes.</block>
   <block id="f1fe71442cd08e74d342114df7ee1551" category="inline-link-macro">Instale Astra Trident</block>
-  <block id="7bf320596331b39277fe4c33b233a4de" category="list-text">Confirmar que haya instalado una versión compatible de Astra Trident o que actualice a la última versión de Astra Trident. Consulte <block ref="1a59dd77a0d64111faec261144239ca1" category="inline-link-macro-rx"></block>.</block>
   <block id="e8b9c3a9859a62e9a58431c3b61f75d5" category="inline-link-macro">Gestione las clases de almacenamiento</block>
   <block id="37b5997855958384cd2d8f88d0ea2dd5" category="list-text">Añada y elimine clases de almacenamiento. Consulte <block ref="b3baecb7f739f8467c020eefaf640928" category="inline-link-macro-rx"></block>.</block>
   <block id="260adbf21b473e18ea0788235c9512b8" category="inline-link-macro">Vea los volúmenes persistentes</block>
@@ -320,9 +314,7 @@
   <block id="d5f64dd836c164f17e32528a31fdeea5" category="inline-link-macro">Obtenga más información sobre la compatibilidad con Kubernetes</block>
   <block id="4e8dc58f86c5b2a120ce6625e2c53adf" category="paragraph"><block ref="ca8428b0b36dc1f5bee5c45f13cb9819" category="inline-link-macro-rx"></block>.</block>
   <block id="5629dc3c8dacdcb31e6d3bf6d7586e32" category="admonition">El servicio Kubernetes existente (disponible a través de la pestaña *K8s*) ha sido obsoleto y se eliminará en una versión futura.</block>
-  <block id="ac6d0965f33632c33b532767c5f5cf1a" category="summary">Añada clústeres de Kubernetes a BlueXP para obtener una gestión de datos avanzada en unos pocos pasos.</block>
   <block id="79e470c48afbbe1fa9e042e6403d2459" category="doc">Comience a usar los clústeres de Kubernetes</block>
-  <block id="485af08837450e02af336c55571fef57" category="paragraph">Agregue clústeres Kubernetes a BlueXP para una gestión de datos avanzada en unos pocos pasos.</block>
   <block id="c0a71f242f9a20837eeb221262b5ec52" category="paragraph">Uso <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> Puede empezar a gestionar los clústeres de Kubernetes en solo unos pasos.</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Uno</block>
   <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Revise los requisitos previos</block>
@@ -434,10 +426,6 @@
   <block id="c0051c23ce1a6dfb0a01449b18d415ad" category="paragraph"><block ref="c0051c23ce1a6dfb0a01449b18d415ad" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b9df8925a665185ffc090378d80c3ca0" category="summary">Después de añadir un clúster de Kubernetes gestionado al lienzo, puede utilizar BlueXP para confirmar una instalación de Astra Trident compatible o instalar Astra Trident. Se requiere una de las cuatro versiones más recientes de Astra Trident.</block>
   <block id="62286cd48d8328138c2c4d1b71e6fe45" category="doc">Instalar o actualizar Astra Trident</block>
-  <block id="f8172d064c9fb599a086fdf468a86d9c" category="paragraph">Después de añadir un clúster de Kubernetes gestionado al lienzo, puedes utilizar BlueXP para confirmar una instalación de Astra Trident compatible o instalar o actualizar Astra Trident a la última versión.</block>
-  <block id="703b6be9eec96bb49a157de2a1ae70ae" category="list-text">Si Astra Trident no está instalado o se ha instalado una versión incompatible de Astra Trident, el clúster mostrará que hay una acción necesaria.</block>
-  <block id="fa68a0b3b7640ba4bb770d375598b4b6" category="list-text">Es necesaria una de las cuatro versiones más recientes de Astra Trident implementadas mediante el operador Trident, ya sea manualmente o mediante el gráfico Helm.</block>
-  <block id="158d545fe2a8c88daca03335fce4aab2" category="list-text">Astra Trident puso en marcha con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> no es compatible. Si puso en marcha Astra Trident con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>, No puede utilizar BlueXP para administrar los clústeres de Kubernetes. Debe <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> y volver a instalar <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> o utilizando los pasos que se indican a continuación.</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link-macro">Documentación de Astra Trident</block>
   <block id="49884bb39e4730239c5590a42f88d306" category="paragraph">Para obtener más información sobre Astra Trident, consulte <block ref="d243cca937364184efa824b0525b876a" category="inline-link-macro-rx"></block>.</block>
   <block id="6867d56501a1639e8de0328e96a5d354" category="list-text">Si Astra Trident no está instalado, haga clic en *instalar Trident*.</block>
@@ -629,4 +617,84 @@
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:</block>
   <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Haga clic en *Crear un caso* para abrir una incidencia con un especialista en soporte de NetApp:</block>
   <block id="14d43bcefa1304e65774a093c0b798c2" category="sidebar">Importe los clústeres de OpenShift</block>
+  <block id="2d5671c9f87d5881eec80e4e140c0364" category="list-text">Confirmar que se ha instalado una versión compatible de Astra Trident, actualizar a la última versión de Astra Trident o desinstalar Astra Trident. Consulte <block ref="1a59dd77a0d64111faec261144239ca1" category="inline-link-macro-rx"></block>.</block>
+  <block id="18f4dd4dcad9491106ca9ad766f15972" category="summary">Con BlueXP puede empezar a gestionar clústeres de Kubernetes en unos pocos pasos.</block>
+  <block id="c949166d6970748c0094c800daa3324a" category="doc">Gestione Astra Trident</block>
+  <block id="5362d84aa85052dc57ee427cc92ef344" category="paragraph">Después de añadir un clúster de Kubernetes gestionado al lienzo, puede utilizar BlueXP para confirmar una instalación compatible de Astra Trident, instalar o actualizar Astra Trident a la versión más reciente o desinstalar Astra Trident.</block>
+  <block id="161d9090769f19a69eef7ef0c229d93d" category="section-title">Astra Trident en BlueXP</block>
+  <block id="62c30bcfbdb4b7c0181a789ede3e749a" category="paragraph">Después de añadir clústeres de Kubernetes a BlueXP, puede gestionar Astra Trident y sus clústeres de Kubernetes desde la página de descripción general. Para abrir la página de resumen, haga doble clic en el entorno de trabajo de Kubernetes en el lienzo.</block>
+  <block id="ec6fcae1ba8df077c437ef2026436316" category="section-title">Versiones compatibles de Astra Trident</block>
+  <block id="ea355478bf6a72e41e6454dd0be48ae2" category="paragraph">Es necesaria una de las cuatro versiones más recientes de Astra Trident implementadas mediante el operador Trident, ya sea manualmente o mediante el gráfico Helm. Si Astra Trident no está instalado o se ha instalado una versión incompatible de Astra Trident, el clúster mostrará que hay una acción necesaria.</block>
+  <block id="54569e194bab3dae1d44eaaa9ad1ab0b" category="inline-link-macro">El operador de Trident</block>
+  <block id="8153aaea8ca787dd0f6e13cd06ba39b8" category="admonition">Astra Trident puso en marcha con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> no es compatible. Si puso en marcha Astra Trident con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>, No puede utilizar BlueXP para gestionar sus clústeres de Kubernetes ni desinstalar Astra Trident. Debe <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> Y vuelva a instalar Astra Trident manualmente mediante <block ref="63fe8d185cbbf6a0ce17ed72ff923974" category="inline-link-macro-rx"></block> O en BlueXP usando <block ref="f1de51606b29dff0c9b1a92d4a5068f2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="85476e9aef7545cef68e349b3a81422c" category="paragraph">En la página de descripción general, puede revisar el estado y la versión de la instalación de Astra Trident. Si Astra Trident aún no está instalado o hay una versión incompatible instalada, puede gestionarla con BlueXP.</block>
+  <block id="5ff3faebb0ff710340bdbee89a4667ad" category="inline-link-macro">Actualizar con el operador</block>
+  <block id="244f5a9f7cb41a54f23539754a6e17b2" category="admonition">No puede utilizar BlueXP para actualizar desde las versiones de Astra Trident anteriores a 21.01. Para actualizar desde una versión anterior, consulte <block ref="c2b60006c9fadcf65befa6bac681ff72" category="inline-link-macro-rx"></block>.</block>
+  <block id="43f17763173fe230bdd78477152f5f7d" category="section-title">Desinstale Astra Trident</block>
+  <block id="83b445d8ff0d72c31d8404121a5105f4" category="paragraph">Si instaló Astra Trident con BlueXP o con el operador Trident (ya sea Helm o manualmente), puede desinstalarla mediante BlueXP.</block>
+  <block id="7d4b056f6045b6850c0716327db288b6" category="list-text">Después de desinstalar Astra Trident no puede crear volúmenes persistentes nuevos, pero los volúmenes existentes aún están disponibles.</block>
+  <block id="324bdc145af29bc671d0caf2a7b498f6" category="list-text">Mientras se desinstala Astra Trident, la copia de seguridad no está disponible.</block>
+  <block id="311bac3bde31940eb5734ccc0f196472" category="list-text">Puede volver a instalar Astra Trident en el entorno de trabajo en cualquier momento para continuar gestionando los clústeres.</block>
+  <block id="58696af88eb7bc52de53be6f3297f99c" category="inline-link-macro">Desinstale mediante el operador Trident</block>
+  <block id="3c8ca53356eeccb12428a250663aa881" category="paragraph">La desinstalación de Astra Trident con BlueXP no elimina todos los servicios de Astra Trident aplicados durante la instalación. Para eliminar por completo Astra Trident, incluidas todas las definiciones de recursos personalizados (CRD) que crea, consulte <block ref="3d29040915e5b5cb57038cab0797dd4f" category="inline-link-macro-rx"></block></block>
+  <block id="77addfb223c3ed99a41d37952c95a6fb" category="list-text">En la página de descripción general, seleccione las elipses y *Desinstalar Astra Trident*.</block>
+  <block id="81241d9f0e44951e32c292b050624aba" category="inline-image-macro">Una captura de pantalla del menú para desinstalar Astra Trident.</block>
+  <block id="46844a78cea0511267653b2ff244faab" category="paragraph"><block ref="46844a78cea0511267653b2ff244faab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e36a0095f836afc001b2d9c1edee5e6f" category="list-text">Seleccione *Desinstalar* para confirmar y desinstalar Astra Trident.</block>
+  <block id="35019b4b6292627398d74835213fc1d9" category="paragraph">Astra Trident ahora se desinstala del entorno de trabajo. Puede volver a instalar Astra Trident en cualquier momento.</block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">02 de abril de 2023</block>
+  <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Desinstale Astra Trident</block>
+  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">Ahora puede hacerlo <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> Que se instaló con el operador Trident o BlueXP.</block>
+  <block id="b39075adcfffd4fd3160f2f3f63a59c5" category="paragraph">Utilizar un <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Anteriormente Cloud Manager) y una versión compatible de Astra Trident puesta en marcha mediante el operador de Trident, puede:</block>
+  <block id="c8e0b61e09c13c9a6302fff8b355d22c" category="list-text">Añada y gestione clústeres de Kubernetes</block>
+  <block id="a328809c4e80884ded58a673a70bcad8" category="inline-link-macro">Instalar, actualizar o desinstalar Astra Trident</block>
+  <block id="f21b0b2390c3041251b997210a7cf24f" category="list-text"><block ref="f21b0b2390c3041251b997210a7cf24f" category="inline-link-macro-rx"></block></block>
+  <block id="8d9aa96de7c286ee7d10cfa821025a6f" category="inline-link-macro">Añada y elimine clases de almacenamiento</block>
+  <block id="ce62c2574c8872c1fed16a5a0a8d2840" category="list-text"><block ref="ce62c2574c8872c1fed16a5a0a8d2840" category="inline-link-macro-rx"></block></block>
+  <block id="5d330c78fdbd034ad3466dadfcb8a623" category="list-text"><block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block></block>
+  <block id="9c153b8dfcd24e0e7636fce1b4bc0046" category="inline-link-macro">Quite los clústeres de Kubernetes</block>
+  <block id="1055dc3b82f79fd0cc2d70e2b80ad343" category="list-text"><block ref="95401bdeb9da6ac759821eb6cb403909" category="inline-link-macro-rx"></block> desde el espacio de trabajo</block>
+  <block id="579ae5f19c02240c7a837f86f15400b5" category="inline-link-macro">Activar o ver Cloud Backup</block>
+  <block id="9f4013cde5baeea58bab7f26d0642b38" category="list-text"><block ref="9f4013cde5baeea58bab7f26d0642b38" category="inline-link-macro-rx"></block></block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Accesorio (opcional)*: Cargue hasta cinco archivos adjuntos, uno a la vez.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Los archivos adjuntos están limitados a 25 MB por archivo. Se admiten las siguientes extensiones de archivo: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx y csv.</block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestione sus casos de soporte (vista previa)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Puede ver y gestionar los casos de soporte activos y resueltos directamente desde BlueXP. Es posible gestionar los casos asociados con su cuenta de NSS y con su empresa.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestión de casos está disponible como vista previa. Tenemos pensado perfeccionar esta experiencia y añadir mejoras en próximos lanzamientos. Envíenos sus comentarios mediante el chat en el producto.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">La consola de gestión de casos en la parte superior de la página ofrece dos vistas:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vista de la izquierda muestra el total de casos abiertos en los últimos 3 meses por la cuenta de usuario NSS que ha proporcionado.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vista de la derecha muestra el total de casos abiertos en los últimos 3 meses a nivel de su compañía en función de su cuenta NSS de usuario.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Los resultados de la tabla reflejan los casos relacionados con la vista seleccionada.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Puede agregar o quitar columnas de interés y filtrar el contenido de columnas como prioridad y estado. Otras columnas proporcionan funciones de clasificación.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Consulte los pasos a continuación para obtener más información.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">En el nivel por caso, ofrecemos la posibilidad de actualizar las notas de un caso o cerrar un caso que no esté ya en estado cerrado o pendiente de cierre.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Haga clic en *Administración de casos* y si se le solicita, agregue su cuenta NSS a BlueXP.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La página *Administración de casos* muestra casos abiertos relacionados con la cuenta NSS asociada con su cuenta de usuario de BlueXP. Esta es la misma cuenta NSS que aparece en la parte superior de la página *NSS Management*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Si lo desea, puede modificar la información que se muestra en la tabla:</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">En *casos de la organización*, haga clic en *Ver* para ver todos los casos asociados con su empresa.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modifique el rango de fechas eligiendo un rango de fechas exacto o eligiendo un marco de tiempo diferente.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Captura de pantalla de la opción situada encima de la tabla en la página de gestión de casos que permite elegir un intervalo de fechas exacto o los últimos 7 días, 30 días o 3 meses.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtre el contenido de las columnas.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Captura de pantalla de la opción de filtro de la columna Estado que permite filtrar casos que coinciden con un estado específico, como activo o cerrado.</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">El icono más que se muestra en la tabla</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Cambie las columnas que aparecen en la tabla haciendo clic en <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> y, a continuación, seleccione las columnas que desea mostrar.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Captura de pantalla que muestra las columnas que puede mostrar en la tabla.</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Icono con tres puntos que aparece en la última columna de la tabla</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Gestione un caso existente haciendo clic en <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> y seleccione una de las opciones disponibles:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Ver caso*: Ver todos los detalles sobre un caso específico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Actualizar notas de caso*: Proporcione detalles adicionales sobre su problema o seleccione *cargar archivos* para adjuntar hasta un máximo de cinco archivos.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Cerrar caso*: Proporcione detalles sobre por qué cierra el caso y haga clic en *Cerrar caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Captura de pantalla que muestra las acciones que puede realizar después de seleccionar el menú de la última columna de la tabla.</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">La cuenta NSS debe ser una cuenta de nivel de cliente (no una cuenta de invitado o temporal). Puede tener varias cuentas de NSS en el nivel del cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Sólo puede haber una cuenta NSS si esa cuenta es una cuenta de nivel de partner. Si intenta agregar cuentas de NSS de nivel de cliente y existe una cuenta de nivel de partner, obtendrá el siguiente mensaje de error:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"El tipo de cliente NSS no está permitido para esta cuenta, ya que ya hay usuarios NSS de tipo diferente."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo mismo sucede si tiene cuentas de NSS de nivel de cliente preexistentes e intenta añadir una cuenta de nivel de partner.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Después de iniciar sesión correctamente, NetApp almacenará el nombre de usuario de NSS.</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Se trata de un ID generado por el sistema que se asigna a su correo electrónico. En la página *NSS Management*, puede mostrar su correo electrónico desde <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> de windows</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Si alguna vez necesita actualizar sus tokens de credenciales de inicio de sesión, también hay una opción *Actualizar credenciales* en la <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> de windows</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Con esta opción se le solicita que vuelva a iniciar sesión. Tenga en cuenta que el token de estas cuentas caduca después de 90 días. Se enviará una notificación para avisarle de ello.</block>
 </blocks>
