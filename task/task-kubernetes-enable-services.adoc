@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-kubernetes-enable-services.html 
+permalink: task/task-kubernetes-enable-services.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, kubernetes support 
 summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, podrá utilizar los servicios de datos en el cloud de NetApp para tareas avanzadas de gestión de datos. 
 ---

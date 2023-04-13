@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-k8s-manage-storage-classes.html 
+permalink: task/task-k8s-manage-storage-classes.html 
 keywords: kubernetes, k8s, add storage class, remove storage class 
 summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, puede utilizar BlueXP para gestionar las clases de almacenamiento. 
 ---

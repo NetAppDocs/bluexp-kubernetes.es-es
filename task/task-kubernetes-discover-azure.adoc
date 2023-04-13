@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: /task/task-kubernetes-discover-azure.html 
+permalink: task/task-kubernetes-discover-azure.html 
 keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, import kubernetes cluster, azure, aks, kubernetes support 
 summary: Añada un clúster de Kubernetes a BlueXP para que pueda empezar a realizar backups de los volúmenes persistentes en Azure. 
 ---

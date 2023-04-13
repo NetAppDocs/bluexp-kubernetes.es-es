@@ -218,7 +218,6 @@
   <block id="3d2d606b1ba09a7c7d879ebe24c66f00" category="paragraph">_Discover_ sus clústeres de Kubernetes en BlueXP, pero se le cobrará al realizar backup de los volúmenes persistentes mediante Cloud Backup Service.</block>
   <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">Puede usar BlueXP para instalar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar los servicios de datos.</block>
   <block id="384b71db954a7a463c759208283e47c4" category="doc">Gestione clústeres de Kubernetes</block>
-  <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar servicios de datos.</block>
   <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">desinstale &lt;block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category='inline-code'/&gt;</block>
   <block id="b6f2a65b5d8cda52b65468f1121cccbe" category="inline-link-macro">Utilice el operador Trident</block>
   <block id="b057ae1ed0b2c48dbe6fd1b1b2ea1a30" category="inline-link-macro">Uso de BlueXP</block>
@@ -709,4 +708,5 @@
   <block id="5a81378cdc7edd9ea960cf02d6ca78d2" category="paragraph">ifdef::aws[]</block>
   <block id="b010c7530103ef9947582474d65ff9a3" category="paragraph">ifdef::azure[]</block>
   <block id="6e1e9c83b80f4d22d34cbdf60a71383b" category="paragraph">ifdef::gcp[]</block>
+  <block id="8bdda2d9f896ca0243f1004a375b90ba" category="paragraph">[].lead] Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, eliminar clústeres y habilitar los servicios de datos.</block>
 </blocks>
