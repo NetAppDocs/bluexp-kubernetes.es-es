@@ -20,39 +20,27 @@ Uso link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["Blu
 [role="quick-margin-para"]
 Compruebe que el entorno cumpla los requisitos previos del tipo de clúster.
 
-ifdef::aws[]
+[role="quick-margin-para"]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Requisitos para clústeres de Kubernetes en AWS"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Requisitos para clústeres de Kubernetes en AWS"]endif::aws[]
-
-ifdef::azure[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Requisitos para clústeres de Kubernetes en Azure"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Requisitos para clústeres de Kubernetes en Azure"]endif::azure[]
-
-ifdef::gcp[]
-
-[role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Requisitos para los clústeres de Kubernetes en Google Cloud"]endif::gcp[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Requisitos para los clústeres de Kubernetes en Google Cloud"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Añada sus clústeres de Kubernetes a BlueXP
 [role="quick-margin-para"]
 Puede añadir clústeres de Kubernetes y conectarlos a un entorno de trabajo mediante BlueXP.
 
-ifdef::aws[]
+[role="quick-margin-para"]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Añada un clúster de Amazon Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Añada un clúster de Amazon Kubernetes"]endif::aws[]
-
-ifdef::azure[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Añada un clúster de Azure Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Añada un clúster de Azure Kubernetes"]endif::azure[]
-
-ifdef::gcp[]
-
-[role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Añada un clúster de Google Cloud Kubernetes"]endif::gcp[]
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Añada un clúster de Google Cloud Kubernetes"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Cuatro"] Inicie el aprovisionamiento de volúmenes persistentes
 [role="quick-margin-para"]
