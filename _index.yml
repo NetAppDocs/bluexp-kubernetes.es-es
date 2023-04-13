@@ -14,20 +14,26 @@ indexpage:
   - title: Requisitos
     links:
     - title: Clústeres de Kubernetes en AWS
+      flavor: aws
       url: "/requirements/kubernetes-reqs-aws.html"
     - title: Clústeres de Kubernetes en Azure
+      flavor: azure
       url: "/requirements/kubernetes-reqs-aks.html"
     - title: Clústeres de Kubernetes en Google Cloud
+      flavor: gcp
       url: "/requirements/kubernetes-reqs-gke.html"
     - title: Clústeres de Kubernetes en OpenShift
       url: "/requirements/kubernetes-reqs-openshift.html"
   - title: Añada clústeres de Kubernetes
     links:
     - title: Añada clústeres en AWS
+      flavor: aws
       url: "/task/task-kubernetes-discover-aws.html"
     - title: Añada clústeres en Azure
+      flavor: azure
       url: "/task/task-kubernetes-discover-azure.html"
     - title: Añada clústeres en Google Cloud
+      flavor: gcp
       url: "/task/task-kubernetes-discover-gke.html"
     - title: Importe los clústeres de OpenShift
       url: "/task/task-kubernetes-discover-openshift.html"
