@@ -45,7 +45,7 @@ Cuando link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s
 Ahora puede importar clústeres de OpenShift autogestionados a Cloud Manager.
 
 * link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html["Requisitos para clústeres de Kubernetes en OpenShift"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-add-openshift.html["Agregue un clúster OpenShift a Cloud Manager"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-openshift.html["Importe un clúster de OpenShift a Cloud Manager"]
 
 
 
