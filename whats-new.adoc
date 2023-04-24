@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager, bluexp' 
 summary: Descubra las novedades de Kubernetes en BlueXP. 
 ---
 = Novedades de Kubernetes en BlueXP
@@ -14,7 +14,7 @@ summary: Descubra las novedades de Kubernetes en BlueXP.
 
 
 [role="lead"]
-Descubra las novedades de Kubernetes en BlueXP (anteriormente Cloud Manager).
+Descubre las novedades de Kubernetes en BlueXP (Cloud Manager).
 
 
 

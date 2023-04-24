@@ -16,8 +16,8 @@ summary: Después de añadir un clúster de Kubernetes gestionado al lienzo, pod
 [role="lead"]
 Después de añadir un clúster de Kubernetes gestionado al lienzo, podrá utilizar los servicios de datos en el cloud de NetApp para la gestión de datos avanzada.
 
-Puede usar Cloud Backup para realizar backups de volúmenes persistentes en el almacenamiento de objetos.
+Puedes utilizar el backup y la recuperación de datos de BlueXP para realizar backups de volúmenes persistentes en el almacenamiento de objetos.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Descubra cómo proteger los datos de clústeres Kubernetes con Cloud Backup"^].
+link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Descubre cómo proteger tus datos de clústeres de Kubernetes con el backup y la recuperación de BlueXP"^].
 
-image:screenshot-k8s-backup.png["Una captura de pantalla de la página Kubernetes en el Cloud Backup Service, que muestra cinco tareas de backup para un clúster de Kubernetes."]
+image:screenshot-k8s-backup.png["Una captura de pantalla de la página de Kubernetes en el backup y recuperación de datos de BlueXP, donde se muestran cinco trabajos de backup para un clúster de Kubernetes."]
