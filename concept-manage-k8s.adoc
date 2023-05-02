@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-manage-k8s.html 
-keywords: overview, manage, k8s, kubernetes 
+keywords: overview, manage, k8s, kubernetes, tridentctl, trident operator, operator 
 summary: Puede usar BlueXP para instalar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar los servicios de datos. 
 ---
 = Gestione clústeres de Kubernetes
@@ -13,10 +13,8 @@ summary: Puede usar BlueXP para instalar Astra Trident, configurar clases de alm
 :imagesdir: ./media/
 
 
-[].lead] Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, eliminar clústeres y habilitar los servicios de datos.
-
-
-NOTE: Astra Trident puso en marcha con `tridentctl` no es compatible. Si puso en marcha Astra Trident con `tridentctl`, No puede utilizar BlueXP para administrar los clústeres de Kubernetes. Debe  y volver a instalar link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Utilice el operador Trident"^] o. link:./task/task-k8s-manage-trident.html["Uso de BlueXP"].
+[role="lead"]
+Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar servicios de datos.
 
 
 
@@ -35,3 +33,9 @@ Desde la página de recursos, puede:
 * Quite los clústeres de Kubernetes del espacio de trabajo. Consulte link:./task/task-k8s-manage-remove-cluster.html["Quite los clústeres"].
 * Activa o visualiza el backup y la recuperación de BlueXP. Consulte link:./task/task-kubernetes-enable-services.html["Utilice los servicios de datos en el cloud de NetApp"].
 
+
+
+
+== Limitación conocida
+
+Astra Trident puso en marcha con `tridentctl` no es compatible. Si puso en marcha Astra Trident con `tridentctl`, No puede utilizar BlueXP para administrar los clústeres de Kubernetes. Debe  y volver a instalar link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Utilice el operador Trident"^] o. link:./task/task-k8s-manage-trident.html["Uso de BlueXP"].
