@@ -20,7 +20,15 @@ Astra Trident es un proyecto de código abierto totalmente compatible y mantenid
 
 == Funciones
 
-Utilizar un link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Cloud Manager) y una versión compatible de Astra Trident puesta en marcha con el operador Trident, podrá: * Añadir y gestionar clústeres de Kubernetes * link:./task/task-k8s-manage-trident.html["Instalar, actualizar o desinstalar Astra Trident"]* link:./task/task-k8s-manage-storage-classes.html["Añada y elimine clases de almacenamiento"]* link:./task/task-k8s-manage-persistent-volumes.html["Vea los volúmenes persistentes"]* link:./task/task-k8s-manage-remove-cluster.html["Quite los clústeres de Kubernetes"] desde el espacio de trabajo * link:./task/task-kubernetes-enable-services.html["Activa o visualiza el backup y la recuperación de BlueXP"]
+Utilizar un link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Cloud Manager) y una versión compatible de Astra Trident puesta en marcha con el operador Trident, podrá:
+
+* Añada y gestione clústeres de Kubernetes
+* link:./task/task-k8s-manage-trident.html["Instalar, actualizar o desinstalar Astra Trident"]
+* link:./task/task-k8s-manage-storage-classes.html["Añada y elimine clases de almacenamiento"]
+* link:./task/task-k8s-manage-persistent-volumes.html["Vea los volúmenes persistentes"]
+* link:./task/task-k8s-manage-remove-cluster.html["Quite los clústeres de Kubernetes"] desde el espacio de trabajo
+* link:./task/task-kubernetes-enable-services.html["Activa o visualiza el backup y la recuperación de BlueXP"]
+
 
 
 

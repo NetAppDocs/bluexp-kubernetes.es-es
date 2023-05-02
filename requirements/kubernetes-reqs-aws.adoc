@@ -266,15 +266,6 @@ roleRef:
     apiGroup: rbac.authorization.k8s.io
 ----
 --
-.Instale Trident
---
-Utilice la línea de comandos para proporcionar autorización completa y habilitar BlueXP para instalar Astra Trident.
-
-[source, cli]
-----
-eksctl create iamidentitymapping --cluster < > --region < > --arn < > --group "system:masters" --username system:node:{{EC2PrivateDNSName}}
-----
---
 ====
 .. Aplique la configuración a un clúster.
 +

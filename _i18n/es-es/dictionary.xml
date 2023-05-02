@@ -75,8 +75,6 @@
   <block id="0653aaf657fc7447bc8ef9afc51f9214" category="paragraph">Añada una autorización básica para habilitar el backup y la restauración para los clústeres de Kubernetes.</block>
   <block id="7672a092783c4348b96b40ea2dcf6681" category="open-title">Clases de almacenamiento</block>
   <block id="ef8cb07eb709ab2dd77c5197292f1ad7" category="paragraph">Agregue autorización expandida para agregar clases de almacenamiento con BlueXP.</block>
-  <block id="b8b9eab8c1ed7b79387652490f5724ec" category="open-title">Instale Trident</block>
-  <block id="52964b35567ba6adef127cdd68d2fa70" category="paragraph">Utilice la línea de comandos para proporcionar autorización completa y habilitar BlueXP para instalar Astra Trident.</block>
   <block id="26b09dacbaf5084bbe92bfa4d75feba8" category="list-text">Aplique la configuración a un clúster.</block>
   <block id="a895f05376600e7bc32dbc4f67005168" category="summary">Antes de poder añadir un clúster de Amazon Elastic Kubernetes Service (Amazon EKS) a BlueXP, debe asegurarse de que se cumplan los siguientes requisitos.</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="doc">Requisitos para clústeres de Kubernetes en AWS</block>
@@ -182,7 +180,6 @@
   <block id="d7f435fa7cf0bd0868423fe3be23c07e" category="list-text">Cree un enlace de funciones personalizado en función de sus requisitos de autorización.</block>
   <block id="4759a5a8a6e530a07d366d458377d18b" category="list-text">Cree un<block ref="e866afd8290d5c73cda6260e04e6eef0" prefix=" " category="inline-code"></block> archivo llamado<block ref="b9f2e5d6f67b24cc9ff48c8f5da2cf82" prefix=" " category="inline-code"></block>.</block>
   <block id="28f58929cb9b848d6403270c1e3c1c7b" category="list-text">Configure la autorización de RBAC según sea necesario para el clúster.</block>
-  <block id="1fe5f07cd7f6b046882a66a9f9c308d2" category="paragraph">Conceda la autorización completa de administración y habilite BlueXP para instalar Astra Trident.</block>
   <block id="c6c2bc2133c73ae2516508de9a2b5869" category="list-text">Aplique el enlace de roles del clúster:</block>
   <block id="b6e00a7dda090ccd5afd1c904d80548c" category="list-text">Enumere los secretos de la cuenta de servicio, reemplazando<block ref="af16c4db277e0498b5fa9e30613367f1" prefix=" " category="inline-code"></block> con el contexto correcto para su instalación:</block>
   <block id="f087976277d273660b942918b43af841" category="paragraph">El final de la salida debe ser similar a lo siguiente:</block>
@@ -689,6 +686,12 @@
   <block id="7700de0c0f5f67fa6642e11a7a8430a9" category="paragraph"><block ref="7700de0c0f5f67fa6642e11a7a8430a9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="77e1e303a063c3bd0ea334e8a2343ce0" category="list-text">Activa o visualiza el backup y la recuperación de BlueXP. Consulte <block ref="f48a95ae0530624cb3f954263c78705c" category="inline-link-macro-rx"></block>.</block>
   <block id="eb10d90f9780d4b2ba3926ffaaa63b04" category="inline-link-macro">Activa o visualiza el backup y la recuperación de BlueXP</block>
-  <block id="d85b4300d8f4111c0c79d2d65cad3858" category="paragraph">Utilizar un <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Cloud Manager) y una versión compatible de Astra Trident puesta en marcha con el operador Trident, podrá: * Añadir y gestionar clústeres de Kubernetes * <block ref="f21b0b2390c3041251b997210a7cf24f" category="inline-link-macro-rx"></block>* <block ref="ce62c2574c8872c1fed16a5a0a8d2840" category="inline-link-macro-rx"></block>* <block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block>* <block ref="95401bdeb9da6ac759821eb6cb403909" category="inline-link-macro-rx"></block> desde el espacio de trabajo * <block ref="de6156e46a0797be4d22df59cc5bf2d9" category="inline-link-macro-rx"></block></block>
   <block id="bb9d6271eda9dfe1e95490ac0c6196e0" category="paragraph">Descubre las novedades de Kubernetes en BlueXP (Cloud Manager).</block>
+  <block id="e30f3ee6790404c5b010673da880568c" category="paragraph">Utilizar un <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Cloud Manager) y una versión compatible de Astra Trident puesta en marcha con el operador Trident, podrá:</block>
+  <block id="c8e0b61e09c13c9a6302fff8b355d22c" category="list-text">Añada y gestione clústeres de Kubernetes</block>
+  <block id="f21b0b2390c3041251b997210a7cf24f" category="list-text"><block ref="f21b0b2390c3041251b997210a7cf24f" category="inline-link-macro-rx"></block></block>
+  <block id="ce62c2574c8872c1fed16a5a0a8d2840" category="list-text"><block ref="ce62c2574c8872c1fed16a5a0a8d2840" category="inline-link-macro-rx"></block></block>
+  <block id="5d330c78fdbd034ad3466dadfcb8a623" category="list-text"><block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block></block>
+  <block id="1055dc3b82f79fd0cc2d70e2b80ad343" category="list-text"><block ref="95401bdeb9da6ac759821eb6cb403909" category="inline-link-macro-rx"></block> desde el espacio de trabajo</block>
+  <block id="de6156e46a0797be4d22df59cc5bf2d9" category="list-text"><block ref="de6156e46a0797be4d22df59cc5bf2d9" category="inline-link-macro-rx"></block></block>
 </blocks>
