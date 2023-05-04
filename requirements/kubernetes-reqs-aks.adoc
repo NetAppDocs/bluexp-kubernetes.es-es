@@ -132,13 +132,15 @@ image:screenshot-k8s-aks-obj-id.png["Una captura de pantalla de la ventana del I
 .Pasos
 Cree una función y un enlace de roles del clúster.
 
-. Cree un archivo YAML que incluya el texto siguiente en función de sus requisitos de autorización. Sustituya el ``subjects: kind:`` variable con su nombre de usuario y. ``subjects: user:`` Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.
+. Puede personalizar la autorización en función de sus requisitos.
 +
 [role="tabbed-block"]
 ====
 .Backup/restauración
 --
 Añada una autorización básica para habilitar el backup y la restauración para los clústeres de Kubernetes.
+
+Sustituya el ``subjects: kind:`` variable con su nombre de usuario y. ``subjects: user:`` Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.
 
 [source, yaml]
 ----
@@ -217,6 +219,8 @@ roleRef:
 --
 Agregue autorización expandida para agregar clases de almacenamiento con BlueXP.
 
+Sustituya el ``subjects: kind:`` variable con su nombre de usuario y. ``subjects: user:`` Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.
+
 [source, yaml]
 ----
 apiVersion: rbac.authorization.k8s.io/v1
@@ -277,6 +281,15 @@ roleRef:
     kind: ClusterRole
     name: cloudmanager-access-clusterrole
     apiGroup: rbac.authorization.k8s.io
+----
+--
+.Instalación de Trident
+--
+Utilice la línea de comandos para proporcionar autorización completa y habilitar BlueXP para instalar Astra Trident.
+
+[source, cli]
+----
+eksctl create iamidentitymapping --cluster < > --region < > --arn < > --group "system:masters" --username system:node:{{EC2PrivateDNSName}}
 ----
 --
 ====

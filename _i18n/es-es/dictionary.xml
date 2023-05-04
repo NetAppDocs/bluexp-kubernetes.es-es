@@ -70,7 +70,6 @@
   <block id="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="paragraph"><block ref="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4ebffaff3187e96f25bb8b4b25978bda" category="list-text">Si va a implementar un *clúster Kubernetes autogestionado*, necesita el nombre de usuario de cualquier usuario autorizado.</block>
   <block id="33ebb2dacbde969dd24700b6e4dbe435" category="paragraph">Cree una función y un enlace de roles del clúster.</block>
-  <block id="05a0030833e70e4af624c3716f988104" category="list-text">Cree un archivo YAML que incluya el texto siguiente en función de sus requisitos de autorización. Sustituya el <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variable con su nombre de usuario y. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.</block>
   <block id="515f76789d2dca7dac91e44bba61e4f7" category="open-title">Backup/restauración</block>
   <block id="0653aaf657fc7447bc8ef9afc51f9214" category="paragraph">Añada una autorización básica para habilitar el backup y la restauración para los clústeres de Kubernetes.</block>
   <block id="7672a092783c4348b96b40ea2dcf6681" category="open-title">Clases de almacenamiento</block>
@@ -115,7 +114,6 @@
   <block id="f6671ef10e842ca53232fd0b982400b1" category="paragraph"><block ref="f6671ef10e842ca53232fd0b982400b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3af3ead39a5eec5783d926f19a9b6bfe" category="paragraph">Debe autorizar el rol de conector en cada clúster de Kubernetes para que el conector pueda detectar y gestionar un clúster.</block>
   <block id="d1c51ee4ad82e26c7069e126c0a5d25d" category="paragraph">Se requiere una autorización diferente para habilitar diferentes funciones.</block>
-  <block id="12fb6938fb90a471014c2abce44ca15b" category="list-text">Cree un archivo YAML que incluya el texto siguiente en función de sus requisitos de autorización.</block>
   <block id="f08cfbb10dc9216a72c9d59da3c626b8" category="list-text">Cree una asignación de identidad al grupo de permisos.</block>
   <block id="bcac99b7c9956d05f17a4e4f9649da71" category="open-title">Utilice eksctl</block>
   <block id="3fbd08713a848d604236ac7651dfbe62" category="paragraph">Utilice eksctl para crear una asignación de identidad IAM entre un clúster y la función IAM del conector BlueXP.</block>
@@ -153,7 +151,6 @@
   <block id="837b8b5111e480b693f744fec1804ccb" category="list-text">En Detalles de la cuenta de servicio en la <block ref="90b0dbeec03910bdea419bc944660763" category="inline-link-macro-rx"></block>.</block>
   <block id="4bf9575451981aabdb909c6a57da72cf" category="inline-image-macro">Una captura de pantalla de los detalles de la cuenta de servicio en Cloud Console.</block>
   <block id="ae62d39210641a9fb9c2dd38c13a2b07" category="paragraph"><block ref="ae62d39210641a9fb9c2dd38c13a2b07" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a392c9c3d2df2d0a5afaed519cd01879" category="list-text">Cree un archivo YAML que incluya el texto siguiente en función de sus requisitos de autorización. Sustituya el <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variable con su nombre de usuario y. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con el ID exclusivo para la cuenta de servicio autorizada.</block>
   <block id="dabaf1b4623d38c77af719e0886028d4" category="summary">Puede añadir y gestionar clústeres de Kubernetes de OpenShift autogestionados mediante BlueXP. Antes de poder añadir los clústeres a BlueXP, asegúrese de que se cumplan los siguientes requisitos.</block>
   <block id="b77adae4ee23d10b92f9545417611303" category="doc">Requisitos para clústeres de Kubernetes en OpenShift</block>
   <block id="2841ec9c6e4ef3de87ea802a746f2041" category="list-text">Se necesita un conector BlueXP para importar y gestionar clústeres de Kubernetes. Tendrá que crear un nuevo conector o utilizar un conector existente que tenga los permisos necesarios para su proveedor de cloud:</block>
@@ -695,4 +692,10 @@
   <block id="de6156e46a0797be4d22df59cc5bf2d9" category="list-text"><block ref="de6156e46a0797be4d22df59cc5bf2d9" category="inline-link-macro-rx"></block></block>
   <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">Puede usar BlueXP para instalar o actualizar Astra Trident, configurar clases de almacenamiento, quitar clústeres y habilitar servicios de datos.</block>
   <block id="51ce397d2f1bccd912fdb6f415de2940" category="section-title">Limitación conocida</block>
+  <block id="363b65cde3a58a4944b673e9d7fce91c" category="list-text">Puede personalizar la autorización en función de sus requisitos.</block>
+  <block id="134cda91d8ceed300f8bbdb1a6b354ed" category="paragraph">Sustituya el <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variable con su nombre de usuario y. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.</block>
+  <block id="a108a9c48040b2343bc708a6b5ed0d22" category="open-title">Instalación de Trident</block>
+  <block id="52964b35567ba6adef127cdd68d2fa70" category="paragraph">Utilice la línea de comandos para proporcionar autorización completa y habilitar BlueXP para instalar Astra Trident.</block>
+  <block id="1fe5f07cd7f6b046882a66a9f9c308d2" category="paragraph">Conceda la autorización completa de administración y habilite BlueXP para instalar Astra Trident.</block>
+  <block id="7c0ad7b6a922ca797e316eb1ed6cdbeb" category="paragraph">Sustituya el <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variable con su nombre de usuario y. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con el ID exclusivo para la cuenta de servicio autorizada.</block>
 </blocks>
