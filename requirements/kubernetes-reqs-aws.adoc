@@ -42,9 +42,9 @@ Se requiere un conector BlueXP en AWS para detectar y gestionar clústeres de Ku
 
 Siga los pasos de uno de los siguientes enlaces.
 
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["Cree un conector desde BlueXP"^] (recomendado)
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-aws-mktp.html["Cree un conector desde AWS Marketplace"^]
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Instale el conector en un host Linux existente en AWS"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["Cree un conector desde BlueXP"^] (recomendado)
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-launching-aws-mktp.html["Cree un conector desde AWS Marketplace"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-installing-linux.html["Instale el conector en un host Linux existente en AWS"^]
 
 
 
@@ -72,7 +72,7 @@ image:screenshot-aws-edit-policy.png["Captura de pantalla de la consola AWS que 
 
 
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-aws.html["Vea el formato JSON completo para la política"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-aws.html["Vea el formato JSON completo para la política"^]
 
 . Haga clic en *revisar directiva* y luego en *Guardar cambios*.
 

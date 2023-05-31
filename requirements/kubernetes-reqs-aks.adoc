@@ -42,9 +42,9 @@ Se necesita un conector BlueXP en Azure para detectar y gestionar clústeres de 
 
 Siga los pasos de uno de los siguientes enlaces.
 
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#overview["Cree un conector desde BlueXP"^] (recomendado)
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-azure-mktp.html["Cree un conector desde Azure Marketplace"^]
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Instale el conector en un host Linux existente"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-azure.html#overview["Cree un conector desde BlueXP"^] (recomendado)
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-launching-azure-mktp.html["Cree un conector desde Azure Marketplace"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-installing-linux.html["Instale el conector en un host Linux existente"^]
 
 
 

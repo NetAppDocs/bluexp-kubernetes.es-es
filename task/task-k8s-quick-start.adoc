@@ -14,33 +14,33 @@ summary: Con BlueXP puede empezar a gestionar clústeres de Kubernetes en unos p
 
 
 [role="lead"]
-Uso link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] Puede empezar a gestionar los clústeres de Kubernetes en solo unos pasos.
+Uso link:https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["BlueXP"^] Puede empezar a gestionar los clústeres de Kubernetes en solo unos pasos.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Revise los requisitos previos
 [role="quick-margin-para"]
 Compruebe que el entorno cumpla los requisitos previos del tipo de clúster.
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Requisitos para clústeres de Kubernetes en AWS"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aws.html["Requisitos para clústeres de Kubernetes en AWS"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Requisitos para clústeres de Kubernetes en Azure"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aks.html["Requisitos para clústeres de Kubernetes en Azure"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Requisitos para los clústeres de Kubernetes en Google Cloud"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-gke.html["Requisitos para los clústeres de Kubernetes en Google Cloud"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"] Añada sus clústeres de Kubernetes a BlueXP
 [role="quick-margin-para"]
 Puede añadir clústeres de Kubernetes y conectarlos a un entorno de trabajo mediante BlueXP.
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Añada un clúster de Amazon Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-aws.html["Añada un clúster de Amazon Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Añada un clúster de Azure Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-azure.html["Añada un clúster de Azure Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Añada un clúster de Google Cloud Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-gke.html["Añada un clúster de Google Cloud Kubernetes"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Cuatro"] Inicie el aprovisionamiento de volúmenes persistentes
 [role="quick-margin-para"]

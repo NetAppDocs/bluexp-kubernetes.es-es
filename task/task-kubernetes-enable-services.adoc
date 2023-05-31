@@ -18,6 +18,6 @@ Después de añadir un clúster de Kubernetes gestionado al lienzo, podrá utili
 
 Puedes utilizar el backup y la recuperación de datos de BlueXP para realizar backups de volúmenes persistentes en el almacenamiento de objetos.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Descubre cómo proteger tus datos de clústeres de Kubernetes con el backup y la recuperación de BlueXP"^].
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-kubernetes-backup-to-cloud.html["Descubre cómo proteger tus datos de clústeres de Kubernetes con el backup y la recuperación de BlueXP"^].
 
 image:screenshot-k8s-backup.png["Una captura de pantalla de la página de Kubernetes en el backup y recuperación de datos de BlueXP, donde se muestran cinco trabajos de backup para un clúster de Kubernetes."]
