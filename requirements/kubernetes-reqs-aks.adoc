@@ -140,7 +140,7 @@ Cree una función y un enlace de roles del clúster.
 --
 Añada una autorización básica para habilitar el backup y la restauración para los clústeres de Kubernetes.
 
-Sustituya el ``subjects: kind:`` variable con su nombre de usuario y. ``subjects: user:`` Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.
+Sustituya el `subjects: kind:` variable con su nombre de usuario y. `subjects: name:` Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.
 
 [source, yaml]
 ----

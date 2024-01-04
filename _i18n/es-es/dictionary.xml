@@ -500,7 +500,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notas de la versión</block>
   <block id="33729732e4c013e81e5576920fedbc76" category="sidebar">Habilite los servicios de datos en el cloud de NetApp</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Toda la documentación de BlueXP</block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">05 de marzo de 2023</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">Kubernetes en BlueXP ahora es compatible con Astra Trident 23.01.</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="list-text">Se han realizado mejoras en la interfaz de usuario y se han actualizado las capturas de pantalla en la documentación.</block>
@@ -703,4 +702,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Obtenga soporte para un servicio de archivos de proveedores de cloud</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Para obtener soporte técnico relacionado con un servicio de archivos del proveedor de cloud, su infraestructura o cualquier solución que utilice el servicio, consulte «Obtener ayuda» en la documentación de BlueXP para ese producto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Para recibir soporte técnico específico sobre BlueXP y sus soluciones y servicios de almacenamiento, use las opciones de soporte descritas a continuación.</block>
+  <block id="531ad5e6be7e9668f912aa6e655e5902" category="paragraph">Sustituya el<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variable con su nombre de usuario y.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con el ID exclusivo para la cuenta de servicio autorizada.</block>
+  <block id="f7686ca7ddbb48ed256c1ad60bb0a874" category="paragraph">Sustituya el<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variable con su nombre de usuario y.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con el ID de objeto para la identidad administrada asignada por el sistema o el nombre de usuario de cualquier usuario autorizado como se ha descrito anteriormente.</block>
 </blocks>
